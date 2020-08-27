@@ -1,0 +1,125 @@
+
+        *{
+         box-sizing: border-box;   
+        }
+         body{
+             color: #666;
+             background-color: #f7f6f5;
+             line-height: 22px;
+             margin: 0;
+         }
+        .container{
+            width: 940px;
+            border: 2px solid #000;
+            background-color: #fff;
+            margin: 20px auto ;
+        }
+        header{
+            height: 160px;
+            
+        }
+        h1{
+            width:800px ;
+            height: 130px;
+            margin: 0;
+            text-align: center;
+            padding: 50px;
+            float: left;
+            background-color:lavender;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        nav,footer{
+            color: #ffffff;
+            background-color: #aeaca8;
+            height: 30px;
+            clear: left;
+        }
+        nav ul{
+            margin: 0;
+            padding: 5px 0px 5px 30px;
+            
+        }
+        nav li{
+            display: inline;
+            margin-right: 50px;
+        }
+        nav li a{
+            color: cornsilk;
+            
+        }
+        nav a:hover,nav a.current{
+            color:#000 ;
+        }
+        .food{
+            float: left;
+            width: 650px;
+            border-right:1px solid #eee ;
+        }
+        article{
+            clear: both;
+            width: 100%;
+            overflow: auto;
+            
+        }
+
+        hgroup{
+            margin-top: 40px;
+            
+        }
+        p{
+            text-align: justify;
+        }
+        figure{
+            float: left;
+            width: 290px;
+            height: 220px;
+            border: 1px solid #eeeeee;
+            padding: 5px;
+            margin: 20px;
+        }
+        figcaption{
+            text-align: left;
+            font-size: small;
+        }
+        aside{
+            width: 230px;
+            float: left;
+            padding: 0px 0px 0px 20px;
+
+        }
+        aside section a{
+            display: block;
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        aside section a:hover{
+            color: #efefef;
+            background-color:#985d6a;
+        }
+        a{
+            text-decoration: none;
+            color: #dc7692;
+        }
+        footer{
+            font-size: 18px;
+            text-align: center;
+            
+        }
+        .logo{
+            float: left;
+            width: 136px;
+            height:130px;
+        }
+
+        @media screen and (max-width: 480px) {
+        body {
+            background-color: lightgreen;
+            overflow: auto;
+
+        }
+        section {
+            width: 100%;
+            overflow: scroll;
+            
+        }
+}
